@@ -1,0 +1,342 @@
+/*
+Theme Name: Twenty Seventeen Child
+Theme URI:
+Description: A child theme of twentyseventeen
+Author: Brenna M.
+Author URI:
+Template: twentyseventeen
+Version: 0.1.0
+*/
+
+/* Force sticky navigation into position */
+#page-header {
+  margin-bottom: 0 !important;
+}
+/* Force header image to full height */
+#custom-header-media {
+  height: 100vh;
+  max-height: 100%;
+  overflow: hidden;
+  position:relative;
+}
+
+
+
+
+
+
+
+
+h1 {
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10em;
+  padding-bottom: 1em;
+  text-align: relative;
+  font-family: sans-serif;
+
+
+}
+.textwidget {
+  margin-bottom: 0em;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 10em;
+  padding-bottom: 1em;
+  text-align: relative;
+  font-family: sans-serif;
+color: #fff
+}
+
+h5 {
+  margin-bottom: 0em;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 5em;
+  padding-bottom: 1em;
+  text-align: relative;
+  font-family: sans-serif;
+  color: #fff
+
+
+}
+
+
+
+
+h2 { text-align: center;}
+
+.site-title {
+  background-color: transparent;
+  color: #fff
+}
+
+.site-header {
+    /*background: rgba(34,34,34,0.75);*/
+    /*background-color: #343434;*/
+    background-image: url("brenna.mcdonagh-7-2000x1200.jpg");
+    background-size: contain;
+    position: relative;
+    font-family: monospace;
+}
+
+
+article{
+  /*background-color: #343434;*/
+  background-color: #333;
+    font-family: monospace;
+    color: #fff;
+
+}
+
+h2.widget-title {
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 0em;
+  margin-top: 3em;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1em;
+  padding-bottom: 0em;
+}
+
+ul { font-size: 16px
+color:#fff;
+text-decoration: none;}
+
+
+
+
+header{
+  /*background-color: #343434;*/
+  /*background: transparent;*/
+  text-align: center;
+  background-position: center;
+  background: rgba(34,34,34,0.75);
+  margin-bottom: 0em;
+  margin-top: 0em;
+  padding-left: 0em;
+  padding-right: 0em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  text-align: relative;
+  font-family: monospace;
+
+}
+
+footer{
+ /*background-color: #343434;*/
+ background-color: #333;
+}
+
+
+
+
+panel{
+  background-color: white;
+
+}
+body{
+  background-color: black;
+
+}
+
+
+
+
+
+
+.wrap {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+    padding-left: 0em;
+    padding-right: 2em;
+    padding-top: 2em;
+    background-color: transparent;
+}
+
+.site-content {
+    padding: 1em 0 0;
+    /*background-color: #343434;*/
+    background-color: #333;
+
+}
+
+.entry-footer .cat-links a, .entry-footer .tags-links a {
+    color: #fff;
+}
+
+span.nav-title {
+    color: white;
+}
+
+
+a {
+    color: grey;
+
+}
+
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: lightgrey;
+}
+
+/* selected link */
+a:active {
+    color: grey;
+}
+
+
+
+
+
+
+.panel-content {
+  background-image: url("brenna.mcdonagh-3-1-768x613.jpg");
+  background-repeat: no-repeat;
+  background-position: relative;
+  background-size: cover;
+}
+
+.entry-title a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: -2px;
+    background: transparent;
+    text-align: relative;
+
+}
+
+.entry-title {
+color: white;
+}
+
+
+
+
+link{
+  color: white;
+background: transparent;
+text-align: center;
+
+}
+
+
+.menu-toggle {
+    background: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    color: #fff;
+    display: none;
+    font-size: 14px;
+    font-size: 0.875rem;
+    font-weight: 800;
+    line-height: 1.5;
+    margin: 1px auto 2px;
+    padding: 3em;
+    text-shadow: none;
+    text-align: center;
+
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    color: #fff;
+    background: transparent;
+    font-size: 23px;
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    font-family: monospace;
+    text-align: center;
+}
+
+.entry-meta{
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-top: 2em;
+  padding-bottom: 2em;
+
+}
+
+
+
+.navigation-top {
+    /*background: #343434;*/
+    background: rgba(34,34,34,0.75);
+    border-bottom: 1px solid #eee;
+    border-top: 1px solid #eee;
+    font-size: 16px;
+    /*font-size: 1rem;*/
+    position: relative;
+    text-align: center;
+}
+label {
+    color: #fff;
+    display: block;
+    font-weight: 800;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    font-family: sans-serif;
+    color: white;
+    font-weight: 30px;
+    font-size: 20px;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    background: rgba(34,34,34,0.75);
+    text-align:relative;
+    display: block;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 2px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+}
+
+
+
+
+
+/*removes Proudly powered by Wordpress line*/
+.site-info {display:none;}
+
+/*reduces line weight on contact form*/
+label {font-weight: 600;}
+
+/*changes colour on contact form button*/
+/*button, input[type="button"], input[type="submit"] {
+    background-color: #666;}
